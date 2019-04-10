@@ -1,0 +1,22 @@
+{
+  "id": "Notion",
+  "name": "Notion",
+  "version": "1.0.0",
+  "description": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team",
+  "main": "index.js",
+  "author": "takehitosato@gmail.com",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://www.notion.so/login",
+    "serviceName": "Notion",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hostedOnly": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
